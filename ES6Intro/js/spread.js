@@ -7,6 +7,8 @@ const largest = Math.max(...num);
 // console.log(largest);
 
 // copy arry
-const num2 = num;
+const num2 = [...num];
+num.push(500);
+num2.push(40000);
  console.log(num);
  console.log(num2);
