@@ -16,3 +16,13 @@ const {phone} = Human;
 
 const {name , age , profession} = {name: 'hasib', age: '24', profession: 'student'};
 console.log(name ,age, profession);
+
+
+// array destructuring
+const [first , another] = [12, 23, 34, 45, 56];
+console.log(first, another);
+
+
+const mobile = ['samsung', 'mi', 'oppo'];
+const [f, s, t] = mobile;
+console.log(f);
